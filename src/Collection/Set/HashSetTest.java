@@ -1,6 +1,6 @@
-package Set;
+package Collection.Set;
 
-import Entity.Student;
+import Collection.Entity.Student;
 
 import java.util.Arrays;
 import java.util.HashSet;

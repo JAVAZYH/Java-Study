@@ -1,6 +1,6 @@
-package Set;
+package Collection.Set;
 
-import Entity.User;
+import Collection.Entity.User;
 
 import java.util.Comparator;
 

@@ -1,4 +1,4 @@
-package Entity;
+package Collection.Entity;
 
 /**
  * \* Created with IntelliJ IDEA.
@@ -11,8 +11,7 @@ package Entity;
 /**
  * 实现comparable接口，让对象有可比较性
  */
-//public class User implements Comparable<User>{
-    public class User {
+public class User implements Comparable<User>{
     public String getName() {
         return name;
     }
@@ -55,26 +54,25 @@ package Entity;
 //     * @param o
      * @return
      */
-//    @Override
-//    public int compareTo(User o) {
-//        //根据年龄比较,升序,如果年龄相同则按分数比较
-//        System.out.println( "User.compareTo" );
-//        if (this.age>o.getAge()) {
-//            return 1;
-//        }else if (this.age<o.getAge()){
-//            return -1;
-//        }else{
-//            if (this.score>o.getScore()){
-//                return -1;
-//            }else if(this.score<o.getScore()){
-//                return 1;
-//            }else {
-//                //如果分数相同，调用string中的compareTo方法
-//                return this.name.compareTo( o.getName() );
-//            }
-////            return 0;
-//        }
-//    }
+    public int compareTo(User o) {
+        //根据年龄比较,升序,如果年龄相同则按分数比较
+        System.out.println( "User.compareTo" );
+        if (this.age>o.getAge()) {
+            return 1;
+        }else if (this.age<o.getAge()){
+            return -1;
+        }else{
+            if (this.score>o.getScore()){
+                return -1;
+            }else if(this.score<o.getScore()){
+                return 1;
+            }else {
+                //如果分数相同，调用string中的compareTo方法
+                return this.name.compareTo( o.getName() );
+            }
+//            return 0;
+        }
+    }
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package List;
+package Collection.List;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ public class ArrayListTest {
 //            test01();
 //            test02();
 //        test03();
-//        List test= CreateList();
+//        Collection.Algorithm.List test= CreateList();
 //        long startTime=System.currentTimeMillis();
 ////        test04();
 ////        Collections.binarySearch(  )
@@ -22,7 +22,7 @@ public class ArrayListTest {
      */
     public static void test01() {
 //        ArrayList list=new ArrayList();
-//        List<String> list1=new java.util.ArrayList<>(  );
+//        Collection.Algorithm.List<String> list1=new java.util.ArrayList<>(  );
 //        list.add( "123" );
 //        list.add(  100);
 //        list.add( 10.2 );
@@ -80,7 +80,7 @@ public class ArrayListTest {
 //
 //            //将数组转为list
 ////            String[]arr={"aaa","bbb","ccc"};
-////           List<String> list2= Arrays.asList( arr );
+////           Collection.Algorithm.List<String> list2= Arrays.asList( arr );
 ////           System.out.println( list2 );
 ////
 ////          System.out.println( test );
@@ -139,6 +139,7 @@ public class ArrayListTest {
             }
         }
         System.out.println( "操作后"+list );
+
     }
 }
 
