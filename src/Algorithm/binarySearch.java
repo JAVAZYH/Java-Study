@@ -1,4 +1,4 @@
-package Collection.Algorithm;
+package Algorithm;
 
 /**
  * \* Created with IntelliJ IDEA.
