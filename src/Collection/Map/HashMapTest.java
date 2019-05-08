@@ -4,7 +4,7 @@ import Collection.Entity.Student;
 
 import java.util.*;
 
-//import java.util.Collection.Algorithm.Map.Entry;
+//import java.util.Algorithm.Map.Entry;
 public class HashMapTest {
     public static void main(String args[]){
 test01();
@@ -41,7 +41,7 @@ test01();
     map.put(stu1.getNo(),stu1);
     map.put(stu2.getNo(),stu2);
     //1.map本身无法遍历，遍历所有的key,返回的是set集合
-//        Collection.Algorithm.Set<Integer> keys= map.keySet();//返回所有的key集合
+//        Algorithm.Set<Integer> keys= map.keySet();//返回所有的key集合
 ////        for (Integer key:keys){
 ////            Student value=map.get(key);
 ////            System.out.println("key:"+key+",value:"+value);
@@ -54,10 +54,10 @@ test01();
 //        }
 
         //3.entrySet()获取所有的键值对集合，然后遍历所有的key-value键值对
-        //Collection.Algorithm.Map.Entry是一个内部接口,可以直接导入也可以写为Map.Entry
+        //Algorithm.Map.Entry是一个内部接口,可以直接导入也可以写为Map.Entry
        /*
        Set集合的泛型是Map.Entry类型，
-       Collection.Algorithm.Map.Entry的泛型是Map集合的泛型
+       Algorithm.Map.Entry的泛型是Map集合的泛型
         */
         Set<Map.Entry<Integer,Student>> entries=map.entrySet();
         Iterator<Map.Entry<Integer,Student>> it= entries.iterator();
