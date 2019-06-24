@@ -1,5 +1,7 @@
 package Collection.Map;
 
+import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Properties;
