@@ -1,5 +1,4 @@
-package Array.Array;
-import org.junit.jupiter.api.Test;
+package Basic.Array;
 
 /**
  * \* Created with IntelliJ IDEA.
@@ -8,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * \* Time: 10:47
  * \
  */
-public class ArrayTest {
+public class ArrayTestting {
     public static void main(String[] args) {
         //数组初始化
         //静态初始化：初始化数组时就赋值
@@ -41,9 +40,5 @@ public class ArrayTest {
         //默认值为null
         String [] strings2=new String[2];
         System.out.println(strings2[1]);
-    }
-    @Test
-    public void test1(){
-        System.out.println("test");
     }
 }

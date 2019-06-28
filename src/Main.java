@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
 
 public class Main {
   public static void main(String[] args){
@@ -11,8 +12,12 @@ public class Main {
 //      System.setProperty( key2,value2 );
 //      System.out.println(Boolean.getBoolean( key1 ));
 //      System.out.println(Boolean.getBoolean( key2 ));
-      ArrayList<String> test=new ArrayList<>(  );
-      System.out.println( test.size());
+//      ArrayList<String> test=new ArrayList<>(  );
+//      System.out.println( test.size());
+      LinkedList<Integer> linkedList=new LinkedList<>();
+      linkedList.add( 1 );
+      linkedList.add( 2 );
+      System.out.println(linkedList.get( 2 ));
     }
 
 }

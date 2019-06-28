@@ -1,4 +1,6 @@
-package Array.Array;
+package Basic.Array;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
@@ -9,9 +11,9 @@ import java.util.Scanner;
  * \* Time: 14:17
  * \
  */
-public class Test {
+public class Testting {
     public static void main(String[] args) {
-     Test test=new Test();
+     Testting test=new Testting();
 //     test.test01();
 //        test.test02();
 //        test.test03();
@@ -108,6 +110,7 @@ public class Test {
     /**
      * 反转数组
      */
+    @Test
     public void test06(){
         int[] array={1,2,3,4,20};
         int temp;
@@ -124,6 +127,20 @@ public class Test {
         for (int i=0;i<array.length;i++){
             System.out.print(array[i]);
         }
+    }
+
+    /**
+     * 复制数组
+     */
+    @Test
+    public void test(){
+        int arr[]={1,5,9,2,10,20,20};
+        System.out.println((arr.length-1-0)/2);
+//        int copyArr[]=new int[arr.length];
+//        for(int i=0;i<arr.length;i++){
+//            copyArr[i]=arr[i];
+//        }
+//        System.out.println(Arrays.toString( copyArr ));
     }
 
 
