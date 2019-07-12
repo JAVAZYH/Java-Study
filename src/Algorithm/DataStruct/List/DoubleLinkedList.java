@@ -51,6 +51,24 @@ public class DoubleLinkedList {
         }
      }
 
+     //删除指定位置的结点
+      public void delete(int index){
+        Node currentNode=head;
+        int j=1;
+        while (j<index){
+            currentNode=currentNode.next;
+            j++;
+        }
+        if (currentNode.next==null){
+            currentNode.pre.next=null;
+        }else if(currentNode.pre==null){
+            head=head.next;
+        }
+        else{
+            currentNode.pre.next=currentNode.next;
+        }
+      }
+
   //从头指针遍历
     public  void printList(){
      Node node=head;
@@ -65,6 +83,8 @@ public class DoubleLinkedList {
         linkedList.insert( 1,"第二个结点" );
         linkedList.insert( 1,"第三个结点" );
         linkedList.insert( 1,"第四个结点" );
+        linkedList.printList();
+        linkedList.delete( 1 );
         linkedList.printList();
     }
 

@@ -1,8 +1,5 @@
 package Basic.OOP.Wrapper;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
  * \* Created with IntelliJ IDEA.
  * \* User: Javazyh
@@ -19,8 +16,9 @@ public class WrapperTest {
 //        list.add( integer );
 //        System.out.println( list.toString());
         //拆箱
-        Integer integer=10;
-        int a=integer;
-        System.out.println(a);
+//        Integer integer=10;
+//        int a=integer;
+//        System.out.println(a);
+
     }
 }

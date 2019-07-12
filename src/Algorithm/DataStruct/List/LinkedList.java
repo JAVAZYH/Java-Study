@@ -20,29 +20,6 @@ public class LinkedList {
         }
     }
 
-    public static void main(String[] args) {
-        LinkedList linkedList=new LinkedList();
-//        linkedList.insertNode( "第一个结点" );
-//        linkedList.insertNode( "第二个结点" );
-//        linkedList.insertNode( "第三个结点" );
-//        linkedList.insertNode( "第四个结点" );
-//        linkedList.insertNode( "第五个结点" );
-//        linkedList.printList();
-        linkedList.insertNodeHead( "第6" );
-        linkedList.printList();
-        linkedList.insertNodeHead( "第七" );
-        linkedList.printList();
-
-//        System.out.println(linkedList.length());
-//        System.out.println(linkedList.deleteNode( 1));
-//        System.out.println(linkedList.getValue( 4 ));
-//        linkedList.printList();
-//        linkedList.RecursionList( head );
-//        Node node=null;
-//        node.data="第二个结点";
-//        linkedList.deletNodeNoHead( node );
-
-    }
     //插入结点,尾部插入
     public  void insertNode(String data){
         Node newNode=new Node( data );
@@ -79,8 +56,8 @@ public class LinkedList {
         if (position<1||position>length()){
             return false;
         }
-        //如果删除的是头结点，把头结点的下一个结点赋值为头结点，
-        //头结点就会变成垃圾被回收，返回true
+        //如果删除的是第一个结点，把头结点的下一个结点赋值为头结点，
+        //第一个结点就会变成垃圾被回收，返回true
         if (position==1){
             head=head.next;
             return true;
@@ -197,4 +174,71 @@ public class LinkedList {
     }
 
 
+    //单链表的反转
+    public Node reverse(Node head){
+        if(head ==null|| head.next==null){
+            return head;
+        }
+        Node tmp=head.next;
+        Node newHead=reverse( head.next );
+        tmp.next=head;
+        head.next=null;
+        return newHead;
+    }
+
+    //单链表的反转
+    public  Node reverseList(Node head){
+        Node pre=null;
+        Node tmp=null;
+        while (head!=null){
+            tmp=head.next;
+            head.next=pre;
+            pre=head;
+            head=tmp;
+        }
+        return pre;
+    }
+//    public Node reverseList(Node head){
+//        Node pre=null;
+//        Node tmp=null;
+//        while (head!=null){
+//            tmp=head.next;
+//            head.next=pre;
+//            pre=head;
+//            head=tmp;
+//        }
+//        return pre;
+//    }
+
+    //取得单链表的头结点
+    public Node getHead(){
+        return this.head;
+    }
+
+    public static void main(String[] args) {
+        LinkedList linkedList=new LinkedList();
+        linkedList.insertNode( "1" );
+        linkedList.insertNode( "2" );
+        linkedList.insertNode( "3" );
+        linkedList.insertNode( "4" );
+//        linkedList.insertNode( "第五个结点" );
+//        linkedList.printList();
+//        linkedList.insertNodeHead( "第6" );
+//        linkedList.printList();
+//        linkedList.insertNodeHead( "第七" );
+//        linkedList.printList();
+
+//        System.out.println(linkedList.length());
+//        System.out.println(linkedList.deleteNode( 3));
+//        System.out.println(linkedList.getValue( 4 ));
+//        linkedList.printList();
+//        linkedList.RecursionList( head );
+//        Node node=null;
+//        node.data="第二个结点";
+//        linkedList.deletNodeNoHead( node );
+        Node head=linkedList.getHead();
+        System.out.println(linkedList.reverseList(head ).data);
+        linkedList.printList();
+
+    }
 }

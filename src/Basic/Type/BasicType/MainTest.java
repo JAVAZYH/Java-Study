@@ -11,9 +11,12 @@ import java.util.Scanner;
  */
 public class MainTest {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner( System.in );
-        String i=scanner.nextLine();
-        System.out.println(args[0]);
+//        Scanner scanner=new Scanner( System.in );
+//        String i=scanner.nextLine();
+//        System.out.println(args[0]);
+//        System.out.println(8>>>-2);
+        float a=1.0f;
+        System.out.println(a);
 
     }
 }
