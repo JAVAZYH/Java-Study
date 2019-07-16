@@ -26,9 +26,9 @@ public class binarySearch {
         binarySearch bs=new binarySearch();
         int srcArray[] = {3, 5, 11, 17, 21, 23, 28, 30, 32, 50, 64, 78, 81, 95, 101};
 //        System.out.println( binSearch( srcArray, 0, srcArray.length - 1, 81 ) );
-//        System.out.println(bs.test(srcArray,50));
+//        System.out.println(bs.FileTest(srcArray,50));
 //        System.out.println(bs.binSearch( srcArray,50 ));
-//        bs.test();
+//        bs.FileTest();
         System.out.println(bs.test03( srcArray,50 ));
 
     }

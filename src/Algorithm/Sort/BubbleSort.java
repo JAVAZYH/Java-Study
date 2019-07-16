@@ -17,7 +17,7 @@ public class BubbleSort {
         BubbleSort bubbleSort=new BubbleSort();
         System.out.println(bubbleSort.test( arr ));
     }
-//    public String test(int[] arr){
+//    public String FileTest(int[] arr){
 //////        int temp;
 //////        for(int i=0;i<arr.length;i++){
 //////            for(int j=0;j<i;j++){

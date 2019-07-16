@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class test {
 //    @Test
-//    public  void test(){
+//    public  void FileTest(){
 //         String str="hello";
 //         String str2="a";
 //         String str3="hello"+"a";//直接去常量池中查找hello+a的内容的地址值，找到了str5

@@ -1,11 +1,5 @@
 package Algorithm.recursion;
 
-import com.sun.media.sound.SoftTuning;
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-import org.junit.jupiter.api.Test;
-
-import java.security.interfaces.ECKey;
-
 /**
  * \* Created with IntelliJ IDEA.
  * \* User: javazyh
@@ -48,7 +42,7 @@ public class Recursion {
         if (begin== arr.length){
             return 0;
         }
-//        int x=test(arr,begin+1 );
+//        int x=FileTest(arr,begin+1 );
         return arr[begin]+test( arr,begin+1 );
     }
 

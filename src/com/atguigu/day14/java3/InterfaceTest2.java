@@ -35,12 +35,12 @@ public class InterfaceTest2 {
 	
 	/*
 	public static void useTest(Phone c){
-		c.test();
+		c.FileTest();
 		//测试了一百项功能--------------------
 	}
 	
 	public static void useTest(Computer c){
-		c.test();
+		c.FileTest();
 		//测试了一百项功能--------------------
 	}
 	*/

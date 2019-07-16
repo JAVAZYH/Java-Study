@@ -7,11 +7,11 @@ public class ArrayListTest {
 //            test01();
 //            test02();
 //        test03();
-//        Algorithm.List test= CreateList();
+//        Algorithm.List FileTest= CreateList();
 //        long startTime=System.currentTimeMillis();
 ////        test04();
 ////        Collections.binarySearch(  )
-//        System.out.println(  test.get( 9999 ) );
+//        System.out.println(  FileTest.get( 9999 ) );
 //        long endTime=System.currentTimeMillis();
 //        System.out.print( "方法的执行时间为："+(endTime-startTime) +"毫秒");
    test5();
@@ -21,7 +21,7 @@ public class ArrayListTest {
      * 基本用法
      */
     public static void test01() {
-//        ArrayList list=new ArrayList();
+        ArrayList list=new ArrayList();
 //        Algorithm.List<String> list1=new java.util.ArrayList<>(  );
 //        list.add( "123" );
 //        list.add(  100);
@@ -34,56 +34,56 @@ public class ArrayListTest {
      * 常用用法
      */
     public static void test02() {
-//            ArrayList<String> test=new ArrayList<>(  );
-//            test.add( "zyh0" );
-//            test.add( "zyh1" );
-//            test.add( "zyh2" );
-////            test.add( "zyh0" );
-//            System.out.println( test );
+//            ArrayList<String> FileTest=new ArrayList<>(  );
+//            FileTest.add( "zyh0" );
+//            FileTest.add( "zyh1" );
+//            FileTest.add( "zyh2" );
+////            FileTest.add( "zyh0" );
+//            System.out.println( FileTest );
 //
 //            //向指定索引位置添加，索引从0开始
-////            test.add( 2 ,"zyh2");
+////            FileTest.add( 2 ,"zyh2");
 //
 //
 //            //set修改方法，返回string 0或1
-//            //   String str=test.set( 0 ,"zyh0");
+//            //   String str=FileTest.set( 0 ,"zyh0");
 ////          System.out.println( str );
 //
 //            //remove删除，返回一个布尔值,如果有重复值只删除第一个
-////            System.out.println(  test.remove( "1" ));
+////            System.out.println(  FileTest.remove( "1" ));
 //
 //            //根据索引删除，返回被删除的元素
-////            System.out.println( test.remove( 1 ) );
+////            System.out.println( FileTest.remove( 1 ) );
 //
 //            //get根据下标获取元素
-////            System.out.println( test.get( 1 ) );
+////            System.out.println( FileTest.get( 1 ) );
 //
 //            //size获取集合的大小，长度
-////            System.out.println( test.size() );
+////            System.out.println( FileTest.size() );
 //
 //            //isEmpty()判断是否为空，返回布尔值,源码根据size是否为空来判断
-////            System.out.println( test.isEmpty() );
+////            System.out.println( FileTest.isEmpty() );
 //
 //            //indexOf()指定元素在集合中的索引，第一次出现的位置,不存在返回-1
-////            System.out.println( test.indexOf( "zyh0" ) );
+////            System.out.println( FileTest.indexOf( "zyh0" ) );
 //            //lastIndexOf(),最后一次出现的位置
-////            System.out.println( test.lastIndexOf( "zyh0" ) );
+////            System.out.println( FileTest.lastIndexOf( "zyh0" ) );
 //
 //            //contains()是否包含指定元素，返回一个布尔值
-////            System.out.println( test.contains( "zyh0" ) );
+////            System.out.println( FileTest.contains( "zyh0" ) );
 //
 //            //clear()清空当前list
-////                 test.clear();
+////                 FileTest.clear();
 //
 //            //toArray（）返回一个object对象数组
-////            test.toArray();
+////            FileTest.toArray();
 //
 //            //将数组转为list
 ////            String[]arr={"aaa","bbb","ccc"};
 ////           Algorithm.List<String> list2= Arrays.asList( arr );
 ////           System.out.println( list2 );
 ////
-////          System.out.println( test );
+////          System.out.println( FileTest );
 //
     }
 
@@ -112,13 +112,13 @@ public class ArrayListTest {
         ArrayList<String>list=new ArrayList<>(  );
 //        LinkedListTest<Integer>list=new LinkedListTest<>(  );
         for (int i=0;i<10000000;i++){
-            list.add( "test"+i);
+            list.add( "FileTest"+i);
         }
         return list;
     }
 //    public static void test04(){
 //
-//        System.out.println(   test.get( 999 ));
+//        System.out.println(   FileTest.get( 999 ));
 //    }
 
     /**

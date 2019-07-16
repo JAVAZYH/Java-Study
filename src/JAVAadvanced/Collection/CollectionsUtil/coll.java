@@ -27,6 +27,8 @@ public class coll {
     Collections.sort( list);
     System.out.println(list);
 
+
+
   }
   //写一个学生类录入学生姓名和成绩。按成绩排序显示前三名。
   @Test
