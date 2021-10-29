@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaBasicStudy.iml" filepath="$PROJECT_DIR$/JavaBasicStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-basic/java-basic.iml" filepath="$PROJECT_DIR$/java-basic/java-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spingboot-project/spingboot-project.iml" filepath="$PROJECT_DIR$/spingboot-project/spingboot-project.iml" />
     </modules>
   </component>
 </project>

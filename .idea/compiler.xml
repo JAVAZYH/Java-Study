@@ -16,11 +16,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaBasicStudy" />
+        <module name="java-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blogProject" target="8" />
+      <module name="java-basic" target="8" />
       <module name="JavaBasicStudy" target="8" />
+      <module name="spingboot-project" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
