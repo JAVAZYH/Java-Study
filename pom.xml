@@ -61,5 +61,6 @@
     <modules>
         <module>java-basic</module>
         <module>spingboot-project</module>
+        <module>springboot-project/vueblog</module>
     </modules>
 </project>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaBasicStudy.iml" filepath="$PROJECT_DIR$/JavaBasicStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basic/java-basic.iml" filepath="$PROJECT_DIR$/java-basic/java-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/spingboot-project/spingboot-project.iml" filepath="$PROJECT_DIR$/spingboot-project/spingboot-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spingboot-project/vuenlog/vuenlog.iml" filepath="$PROJECT_DIR$/spingboot-project/vuenlog/vuenlog.iml" />
     </modules>
   </component>
 </project>

@@ -17,6 +17,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-basic" />
+        <module name="vuenlog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,8 @@
       <module name="java-basic" target="8" />
       <module name="JavaBasicStudy" target="8" />
       <module name="spingboot-project" target="8" />
+      <module name="vueblog" target="8" />
+      <module name="vuenlog" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
