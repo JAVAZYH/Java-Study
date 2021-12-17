@@ -1,6 +1,6 @@
 package zyh.JAVAadvanced.Thread.itguigu.synchronizedTest;
 
-import zyh.atguigu.day17.java.Person;
+import zyh.test.day17.java.Person;
 
 /**
  * \* Created with IntelliJ IDEA.
